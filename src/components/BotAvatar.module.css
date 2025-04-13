@@ -1,0 +1,15 @@
+.avatarContainer {
+  background-image: url("/UserAvatar.jpg");
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+@media (max-width: 576px) {
+  .avatarContainer {
+    display: none;
+  }
+}
